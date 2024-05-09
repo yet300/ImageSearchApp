@@ -70,16 +70,17 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation(libs.coil.compose)
 
     //retrofit
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
 
     //room
-    implementation(libs.androidx.room.runtime)
-    implementation(libs.androidx.room.ktx)
-    annotationProcessor(libs.androidx.room.compiler)
-    ksp(libs.androidx.room.compiler)
+//    implementation(libs.androidx.room.runtime)
+//    implementation(libs.androidx.room.ktx)
+//    annotationProcessor(libs.androidx.room.compiler)
+//    ksp(libs.androidx.room.compiler)
 
     // Hilt
     implementation(libs.hilt.android)

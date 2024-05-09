@@ -13,9 +13,9 @@ import retrofit2.http.Query
 interface ImageApi {
     @POST("./images")
     suspend fun searchImages(
-        @Query("q") query: String? = "Images",
-        @Query("num") number: Int = 10,
-        @Query("page") page: Int = 1
+        @Query("q") query: String = "Images",
+        @Query("num") number: Int = 100,
+        @Query("page") page: Int? = 1
     ): ImageDto
 }
 

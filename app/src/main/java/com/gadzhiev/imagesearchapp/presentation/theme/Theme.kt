@@ -1,4 +1,4 @@
-package com.gadzhiev.imagesearchapp.ui.theme
+package com.gadzhiev.imagesearchapp.presentation.theme
 
 import android.app.Activity
 import android.os.Build

@@ -1,4 +1,4 @@
-package com.gadzhiev.imagesearchapp.ui.theme
+package com.gadzhiev.imagesearchapp.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
